@@ -53,7 +53,7 @@ function newSource({defer=false, deleted=false, noUpdateFog=false}={}) {
           let dim = Math.min(this.getLightRadius(this.data.dimSight), d.maxR);
           const bright = Math.min(this.getLightRadius(this.data.brightSight), d.maxR);
                let x = Math.toRadians(this.data.rotation-90)
-               let y = this.w-10/2
+               let y = (this.w-5)/2
           this.vision.initialize({
             x: origin.x + Math.cos(x)*y,
             y: origin.y + Math.sin(x)*y,
