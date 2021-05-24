@@ -7,6 +7,7 @@
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.8.3",
+  "author" : "Kandashi",
   "authors": [
     {
       "name": "Kandashi",
@@ -14,11 +15,8 @@
       "discord": "Kandashi (He/Him)#6698"
     }
   ],
-  "dependencies": [
-
-  ],
   "esmodules": [
-    "/scripts/module.js"
+    "/scripts/lampshade.js"
   ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
